@@ -4,7 +4,7 @@ Feature: Todoist login
   Scenario Outline: Hacer login con credenciales
     Given I navigate to <url>
     When I log into todoist with valid credentials
-    And ingreso <user> and <password>
+    And I enter <user> and <password>
     Then I should see the home page
     And The list of projects will be visible
     Examples:
