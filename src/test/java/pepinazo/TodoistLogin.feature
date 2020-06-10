@@ -21,7 +21,7 @@ Feature: Todoist login
 
     Examples:
       |url|facebookUser|facebookPass|
-      |https://todoist.com/|jomarnavarro@gmail.com|123|
+      |https://todoist.com/|user@gmail.com|pass|
 
   Scenario: Hacer login con cuenta de google
 
