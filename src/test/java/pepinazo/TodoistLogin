@@ -1,0 +1,9 @@
+Feature: Todoist Login
+Scenario1: Login mediante correo
+Scenario2: Login mediante
+
+    Given yo tengo un usuario y contraseña (cuenta de usuario en todoist)
+
+	When ingreso credenciales y hago click en Iniciar sesión
+
+	Then Ingreso a la aplicación de todoist
